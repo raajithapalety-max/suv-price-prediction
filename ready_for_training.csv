@@ -1,0 +1,267 @@
+Brand,Model,Car_Age,Kilometers_Driven,Fuel_Type,Transmission,Owner_Count,Price,Estimated_Original_Price,Core_Systems_Score,Supporting_Systems_Score,Interiors_AC_Score,Exteriors_Lights_Score,Wear_Tear_Parts_Score
+Kia,Sonet 1.0,4,45000.0,Petrol,Automatic (Dct),2.0,1033000.0,1309000,9.6,9.7,9.0,8.3,8.4
+Tata,Punch Creative Amt*,3,8000.0,Petrol,Automatic (Amt),1.0,810000.0,950000,10.0,9.8,9.5,9.6,9.1
+Tata,Nexon (S),4,24000.0,Petrol,Automatic (Amt),1.0,818000.0,895900,9.9,9.8,9.5,9.2,8.4
+Ford,Ecosport Trend 1.5,11,143000.0,Diesel,Manual (Regular),1.0,426000.0,828000,9.5,9.1,8.1,7.6,8.4
+Tata,Safari Xt,4,64000.0,Diesel,Manual (Regular),2.0,1347000.0,1735900,9.7,9.6,9.0,8.6,8.4
+Mg,Motors Hector Sharp 2.0,6,36000.0,Diesel,Manual (Regular),1.0,1288000.0,1728000,9.9,9.5,9.3,9.2,8.4
+Hyundai,Creta 1.5,6,51000.0,Petrol,Manual (Regular),1.0,1085000.0,1346000,9.8,9.7,9.0,9.0,8.7
+Hyundai,Venue 1.5 Crdi,4,81000.0,Diesel,Manual (Regular),1.0,901000.0,1099000,9.4,9.2,8.6,8.8,8.5
+Tata,Nexon (S),5,49000.0,Petrol,Automatic (Amt),1.0,853999.9999999999,1155900,9.8,9.7,9.0,8.9,8.2
+Nissan,Magnite Xv Cvt*,3,37000.0,Petrol,Automatic (Cvt),1.0,878999.9999999999,1095000,9.9,9.6,9.0,8.9,8.0
+Audi,Q3 30 Tfsi Premium*,9,58000.0,Petrol,Automatic,1.0,1689999.9999999998,3220000,9.8,9.6,9.0,8.9,8.1
+Kia,Seltos 1.5*,4,45000.0,Petrol,Manual (Regular),1.0,1044000.0,1285000,9.8,9.7,9.2,8.9,8.6
+Kia,Seltos 1.4,4,52000.0,Petrol,Automatic (Dct),2.0,1365000.0,1765000,9.8,9.6,9.1,8.3,8.0
+Nissan,Magnite Xv,4,28000.0,Petrol,Automatic (Cvt),1.0,811000.0,1000000,9.9,9.3,9.3,9.1,8.9
+Kia,Seltos Ivt 1.5*,6,68000.0,Petrol,Automatic (Cvt),1.0,1070000.0,1389000,9.7,9.4,8.9,8.4,8.2
+Audi,Q3 40 Tfsi Technology*,4,22000.0,Petrol,Automatic (Dct),1.0,3550000.0,4489000,9.9,9.8,9.5,9.4,8.9
+Lexus,Nx 300H Luxury,8,108000.0,Petrol,Automatic (Cvt),2.0,2690000.0,5550000,9.6,9.3,8.5,8.7,8.2
+Kia,Seltos 1.5,5,102000.0,Diesel,Automatic (Torque Convertor),1.0,1260000.0,1679000,9.6,9.2,8.6,8.1,8.1
+Jeep,Compass Limited,6,82000.0,Petrol,Automatic (Dct),3.0,1200000.0,2192000,9.6,9.0,7.8,8.5,8.3
+Jeep,Compass Trailhawk 2.0 4X4,7,70000.0,Diesel,Automatic (Torque Convertor),3.0,1300000.0,2680000,9.6,9.5,8.7,8.8,7.7
+Renault,Kiger,5,50000.0,Petrol,Automatic (Cvt),1.0,724000.0,955000,9.8,9.4,8.2,8.5,8.2
+Audi,Q5 45 Tfsi Technology*,8,64000.0,Petrol,Automatic,1.0,2590000.0,5979000,9.8,8.8,8.4,8.5,7.9
+Jeep,Compass Limited 2.0 4X4 At*,6,49000.0,Diesel,Automatic (Torque Convertor),1.0,1506000.0,2760000,9.8,9.7,9.0,9.1,8.1
+Mg,Motors Hector Sharp 1.5,6,77000.0,Petrol,Automatic (Dct),1.0,1084000.0,1728000,9.6,9.5,8.7,8.9,8.3
+Kia,Sonet 1.5,5,57000.0,Diesel,Manual (Regular),2.0,853999.9999999999,1039000,9.8,9.6,8.6,8.7,8.3
+Kia,Sonet 1.5,5,53000.0,Diesel,Manual (Regular),1.0,1000000.0,1259000,9.7,9.3,8.9,8.8,8.3
+Kia,Seltos 1.4,7,35000.0,Petrol,Automatic (Dct),1.0,1215000.0,1669000,9.9,9.7,8.9,8.6,8.4
+Kia,Seltos 1.5,6,74000.0,Diesel,Manual (Regular),1.0,1146000.0,1549000,9.7,9.5,8.8,8.5,8.1
+Kia,Seltos 1.4,6,103000.0,Petrol,Automatic (Dct),1.0,1079000.0,1729000,9.6,9.2,8.1,8.4,8.3
+Kia,Seltos 1.4,5,72000.0,Petrol,Automatic (Dct),1.0,1196000.0,1729000,9.7,9.4,8.9,8.8,7.8
+Kia,Seltos 1.4,6,110000.0,Petrol,Automatic (Dct),2.0,1008000.0,1729000,9.6,9.2,8.7,8.0,7.8
+Kia,Seltos 1.4,5,103000.0,Petrol,Automatic (Dct),1.0,1086000.0,1749000,9.6,8.5,8.3,8.3,7.9
+Kia,Seltos 1.4,6,92000.0,Petrol,Automatic (Dct),1.0,1083000.0,1729000,9.7,9.3,8.6,8.1,8.2
+Kia,Sonet 1.5,5,30000.0,Diesel,Manual (Regular),1.0,1030000.0000000001,1284000,9.9,9.0,9.2,8.9,8.8
+Nissan,Magnite Xv,3,29000.0,Petrol,Automatic (Cvt),1.0,892000.0,1091000,9.9,9.8,9.1,8.6,8.6
+Kia,Seltos 1.5 Ivt,4,54000.0,Petrol,Automatic (Cvt),1.0,1261000.0,1499000,9.8,9.6,9.1,8.9,8.2
+Mg,Motors Hector Sharp 2.0,4,35000.0,Diesel,Manual (Regular),1.0,1540000.0,1998800,9.9,9.5,9.1,9.2,8.2
+Mg,Motors Hector Sharp 1.5,5,50000.0,Petrol,Automatic (Cvt),1.0,1344000.0,1658800,9.8,9.5,8.9,8.5,8.3
+Bmw,X1 Sdrive18D M Sport*,3,23000.0,Diesel,Automatic (Dct),1.0,4550000.0,4890000,9.9,9.8,9.3,9.3,8.6
+Volkswagen,Taigun Topline 1.0 Tsi,4,120000.0,Petrol,Manual (Regular),1.0,1104000.0,1539900,9.6,8.9,7.9,7.9,8.4
+Kia,Sonet 1.5,5,44000.0,Diesel,Automatic (Torque Convertor),1.0,916000.0,1039000,9.7,9.5,8.9,8.6,7.8
+Kia,Sonet 1.0,3,35000.0,Petrol,Automatic (Dct),1.0,1181000.0,1377000,9.9,9.7,9.3,9.4,8.2
+Kia,Seltos 1.4,5,82000.0,Petrol,Automatic (Dct),1.0,1155000.0,1729000,9.7,9.4,8.1,8.7,7.8
+Tata,Nexon Fearless 1.2 Revotron 6Mt,3,28000.0,Petrol,Manual (Regular),1.0,1040000.0,1260000,9.9,9.8,8.6,9.4,9.0
+Ford,Ecosport Titanium+ 1.5L,10,132000.0,Diesel,Manual (Regular),1.0,547000.0,1020000,9.1,8.4,7.2,7.9,8.0
+Tata,Nexon (S),6,71000.0,Diesel,Automatic (Amt),2.0,700000.0,999000,9.7,9.5,9.0,8.8,8.4
+Tata,Nexon Dual Tone,4,41000.0,Petrol,Automatic (Amt),1.0,1000000.0,1170900,9.8,9.6,9.1,8.5,8.0
+Kia,Seltos 1.5,3,49000.0,Petrol,Manual (Regular),1.0,1270000.0,1519900,9.8,9.7,9.1,8.648275862068967,10.0
+Kia,Seltos 1.4,6,80000.0,Petrol,Automatic (Dct),2.0,1030000.0000000001,1729000,9.7,9.5,9.0,8.8,8.7
+Volkswagen,Taigun Topline 1.0 Tsi Mt*,4,74000.0,Petrol,Manual (Regular),1.0,1019000.0,1540900,9.7,9.4,9.1,8.1,8.2
+Hyundai,Creta 1.5 Ivt,4,102000.0,Petrol,Automatic (Cvt),1.0,1191000.0,1633000,9.6,9.3,8.6,8.4,8.0
+Volkswagen,Taigun Topline 1.0 Tsi Mt*,4,50000.0,Petrol,Manual (Regular),1.0,1065000.0,1559900,9.6,9.7,8.7,9.1,8.5
+Kia,Seltos 1.5,6,120000.0,Diesel,Automatic (Torque Convertor),2.0,1080000.0,1649000,9.6,9.1,7.6,8.1,8.5
+Kia,Seltos 1.5,6,66000.0,Petrol,Manual (Regular),1.0,1006000.0,1334000,9.8,9.6,8.9,8.9,8.3
+Kia,Seltos 1.4,7,106000.0,Petrol,Automatic (Dct),1.0,1005000.0000000001,1669000,9.6,9.2,8.2,8.0,7.4
+Mg,Motors Hector Sharp 1.5,4,64000.0,Petrol,Automatic (Cvt),1.0,1374000.0,1988800,9.8,9.6,9.3,9.3,8.3
+Maruti,Suzuki Fronx 1.0L 6,3,88000.0,Petrol,Automatic (Torque Convertor),1.0,947000.0000000001,1314000,9.7,9.4,8.5,7.9,7.3
+Kia,Seltos 1.5,5,120000.0,Diesel,Automatic (Torque Convertor),1.0,1243000.0,1749000,9.5,8.5,8.2,8.7,8.6
+Volkswagen,Taigun Highline 1.0 Tsi,4,62000.0,Petrol,Manual (Regular),1.0,949000.0,1549900,9.8,9.6,9.1,8.8,8.3
+Volkswagen,Taigun Topline 1.0 Tsi Mt*,5,120000.0,Petrol,Manual (Regular),1.0,947000.0000000001,1549900,9.3,9.2,7.6,8.1,7.4
+Hyundai,Creta 1.5,6,52000.0,Diesel,Manual (Regular),2.0,1246000.0,1720000,9.7,9.5,9.3,8.9,8.5
+Ford,Ecosport Titanium 1.5L Ti-Vct,10,111000.0,Petrol,Manual (Regular),1.0,509000.0,948500,9.6,9.2,8.3,8.1,8.6
+Kia,Seltos 1.5*,4,47000.0,Petrol,Manual (Regular),1.0,1192000.0,1449000,9.8,9.6,8.9,8.6,8.4
+Kia,Seltos 1.5,4,49000.0,Diesel,Automatic (Torque Convertor),2.0,1444000.0,1545000,9.8,9.6,9.4,9.1,8.2
+Hyundai,Venue 1.2,1,6000.0,Petrol,Manual (Regular),1.0,1124000.0,1113000,10.0,10.0,9.9,9.7,9.6
+Maruti,Suzuki S-Cross 1.3,9,95000.0,Diesel,Manual (Regular),1.0,581000.0,1045000,9.3,9.4,8.2,8.1,8.0
+Nissan,Magnite Xv,4,32000.0,Petrol,Automatic (Cvt),1.0,807000.0,1000000,9.9,9.7,9.5,8.7,8.7
+Kia,Sonet 1.2,3,11000.0,Petrol,Manual (Regular),1.0,846000.0000000001,989000,9.9,9.9,9.8,9.6,9.4
+Maruti,Suzuki Vitara Brezza Zdi+ Dual Tone,9,105000.0,Diesel,Manual (Regular),1.0,686000.0,991000,9.6,9.3,8.3,7.7,8.1
+Kia,Sonet 1.5,5,46000.0,Diesel,Manual (Regular),1.0,917000.0,1039000,9.7,9.5,8.8,9.0,8.2
+Hyundai,Alcazar Signature 6 Str 1.5 Diesel*,4,70000.0,Diesel,Manual (Regular),1.0,1451000.0,1965000,9.7,9.1,9.0,9.0,8.5
+Kia,Seltos 1.5 Ivt,5,84000.0,Petrol,Automatic (Cvt),2.0,980000.0000000001,1449000,9.7,9.4,8.7,8.4,7.4
+Kia,Seltos 1.4,4,41000.0,Petrol,Automatic (Dct),1.0,1420000.0,1749000,9.6,9.6,9.4,8.8,8.0
+Mahindra,Xuv500 W11,8,76000.0,Diesel,Automatic (Torque Convertor),1.0,1191000.0,1898000,9.3,9.5,8.3,8.6,8.3
+Ford,Ecosport Titanium 1.5,11,146000.0,Diesel,Manual (Regular),1.0,474000.0,986000,9.4,9.0,8.0,7.7,8.4
+Maruti,Suzuki Brezza Plus*,3,20000.0,Petrol,Manual (Regular),2.0,1040000.0,1258000,9.9,9.9,9.7,9.5,9.3
+Kia,Sonet 1.0,6,43000.0,Petrol,Automatic (Dct),1.0,935000.0,1289000,9.7,9.7,9.0,8.8,8.5
+Kia,Sonet Anniversary 1.5,4,69000.0,Diesel,Manual (Regular),1.0,900000.0,1165000,9.6,9.4,8.7,8.4,8.0
+Kia,Seltos 1.4*,7,109000.0,Petrol,Automatic (Dct),2.0,951000.0,1669000,9.6,8.8,7.8,8.1,8.0
+Kia,Seltos 1.4*,7,90000.0,Petrol,Automatic (Dct),1.0,1049000.0,1669000,9.7,9.3,7.7,8.0,8.1
+Renault,Duster 110 Ps 4X2,8,86000.0,Diesel,Manual (Regular),1.0,655000.0,1279000,9.6,9.2,8.3,8.6,8.2
+Kia,Seltos 1.4,7,64000.0,Petrol,Manual (Regular),1.0,1070000.0,1669000,9.8,9.4,9.0,8.6,8.0
+Mg,Motors Hector Sharp 1.5 6-Str,4,62000.0,Petrol,Automatic (Dct),1.0,1446000.0,2130800,9.7,9.3,8.9,8.1,8.4
+Maruti,Suzuki Fronx 1.0L Mt*,3,12000.0,Petrol,Manual (Regular),1.0,998000.0,1297000,9.9,9.9,9.8,9.2,9.2
+Hyundai,Creta 1.6 Crdi*,8,92000.0,Diesel,Automatic (Torque Convertor),1.0,997000.0000000001,1503997,9.5,8.9,8.3,7.7,8.0
+Kia,Seltos 1.5,6,46000.0,Petrol,Manual (Regular),1.0,1011999.9999999999,1329000,9.8,9.6,8.6,8.4,8.3
+Kia,Seltos 1.4,3,49000.0,Petrol,Manual (Regular),1.0,1449000.0,1945000,9.8,9.7,9.1,8.4,8.2
+Volkswagen,Taigun Highline 1.0 Tsi,4,64000.0,Petrol,Manual (Regular),1.0,947000.0000000001,1456900,9.8,9.6,9.2,8.5,8.4
+Kia,Seltos 1.4 Dual Tone,7,37000.0,Petrol,Automatic (Dct),1.0,1120000.0,1669000,9.9,9.6,8.7,8.1,7.9
+Hyundai,Creta 1.6,8,48000.0,Petrol,Manual (Regular),1.0,949000.0,1358000,9.8,9.7,8.8,8.4,8.2
+Kia,Seltos 1.5,6,112000.0,Diesel,Automatic (Torque Convertor),1.0,1042000.0,1629000,9.5,8.9,7.2,7.6,7.9
+Kia,Sonet 1.5,3,57000.0,Diesel,Manual (Regular),1.0,944999.9999999999,1049000,9.7,8.8,9.1,9.1,8.1
+Tata,Nexon (S),3,49000.0,Diesel,Manual (Regular),1.0,926000.0,1080000,9.8,9.7,8.9,8.4,8.6
+Honda,Elevate Vx,3,40000.0,Petrol,Manual (Regular),1.0,1101000.0,1363000,9.8,9.7,9.2,9.1,8.2
+Renault,Kiger,4,93000.0,Petrol,Manual (Regular),1.0,567000.0,799000,9.7,9.3,8.3,8.2,8.1
+Mahindra,Xuv 300 1.5,4,47000.0,Diesel,Manual (Regular),1.0,1017000.0,1272000,9.8,8.8,8.9,8.8,8.5
+Volkswagen,Taigun Highline 1.0 Tsi,3,18000.0,Petrol,Manual (Regular),1.0,1113000.0,1542000,9.9,9.9,9.7,9.2,9.2
+Skoda,Kushaq Style 1.5L Tsi Dsg,4,102000.0,Petrol,Automatic (Dsg),2.0,1144000.0,1759000,9.6,9.2,8.6,8.6,8.3
+Kia,Seltos 1.5,4,99000.0,Diesel,Manual (Regular),1.0,1149000.0,1429000,9.4,9.1,8.3,8.6,8.4
+Maruti,Suzuki Grand Vitara Smart Hybrid*,4,94000.0,Petrol,Manual (Regular),1.0,1115000.0,1539000,9.7,9.4,8.9,8.2,8.3
+Mg,Motors Hector Sharp 1.5 6-Str,4,39000.0,Petrol,Automatic (Dct),1.0,1533000.0,2114800,9.8,9.7,9.2,9.1,8.5
+Tata,Nexon (S),5,63000.0,Petrol,Automatic (Amt),1.0,834000.0,1145900,9.5,9.0,8.6,8.7,8.1
+Maruti,Suzuki Vitara Brezza,6,67000.0,Petrol,Manual (Regular),2.0,681000.0,975000,9.8,9.6,9.0,8.3,8.2
+Mahindra,Thar Roxx Ax7 L 2Wd,1,5000.0,Petrol,Automatic (Torque Convertor),1.0,2102000.0,1899000,10.0,9.9,9.9,9.8,9.5
+Mahindra,Xuv700 Ax 7 Luxury Pack 7 Str,4,44000.0,Diesel,Automatic (Torque Convertor),1.0,2023999.9999999998,2289000,9.8,9.7,9.2,8.8,8.8
+Tata,Nexon,4,105000.0,Diesel,Manual (Regular),1.0,833000.0,1139900,9.3,8.4,8.5,7.8,8.6
+Kia,Seltos 1.4,6,97000.0,Petrol,Manual (Regular),2.0,969999.9999999999,1729000,9.6,9.1,8.5,7.9,8.4
+Mg,Motors Hector Sharp 2.0 6-Str,5,51000.0,Diesel,Manual (Regular),1.0,1400000.0,2008800,9.8,8.9,8.9,8.9,8.4
+Maruti,Suzuki Fronx 1.0L 6 At*,2,22000.0,Petrol,Automatic (Torque Convertor),1.0,1109000.0,1304000,9.9,9.7,9.8,9.6,8.9
+Renault,Captur Rxl Diesel*,9,95000.0,Diesel,Manual (Regular),1.0,598000.0,1167000,9.3,9.3,7.5,8.1,8.4
+Renault,Kiger Dual Tone,4,45000.0,Petrol,Automatic (Cvt),1.0,755000.0,1062000,9.8,9.7,9.4,9.1,8.3
+Kia,Seltos 1.5,3,37000.0,Petrol,Automatic (Dct),1.0,1657999.9999999998,1979900,9.9,9.7,9.5,9.0,8.5
+Tata,Punch Creative Flagship Dual Tone Mt*,3,32000.0,Petrol,Manual (Regular),1.0,814000.0,960000,9.9,9.8,9.5,9.0,8.9
+Mg,Motors Hector Sharp Hybrid 1.5,6,80000.0,Hybrid,Manual (Regular),2.0,951000.0,1646000,9.7,9.5,8.2,8.8,8.1
+Mahindra,Xuv700 Ax 7 Luxury Pack 7 Str,4,49000.0,Diesel,Manual (Regular),1.0,1934000.0,2159000,9.8,9.7,8.3,8.4,7.7
+Maruti,Suzuki Brezza,4,47000.0,Petrol,Automatic (Torque Convertor),1.0,1014000.0,1244000,9.8,9.7,8.6,8.7,7.9
+Maruti,Suzuki Brezza,3,71000.0,Petrol,Manual (Regular),1.0,1008000.0,1248000,9.7,9.5,9.1,8.6,8.3
+Renault,Kiger Dual Tone,4,29000.0,Petrol,Automatic (Cvt),1.0,796000.0,1077000,9.8,9.7,9.2,8.9,8.5
+Maruti,Suzuki Brezza,4,55000.0,Petrol,Manual (Regular),2.0,921000.0000000001,1248000,9.8,9.6,9.0,8.6,8.3
+Mahindra,Xuv 300 1.2,3,28000.0,Petrol,Manual (Regular),1.0,990000.0,1315000,9.9,9.8,9.1,9.2,9.0
+Hyundai,Creta 1.6,8,49000.0,Petrol,Manual (Regular),2.0,822000.0000000001,1199000,9.8,9.6,9.0,8.5,8.6
+Hyundai,Creta 1.6,8,100000.0,Petrol,Manual (Regular),1.0,751000.0,1199000,9.6,9.3,8.6,8.5,8.5
+Tata,Nexon,4,32000.0,Diesel,Automatic (Amt),1.0,1089000.0,1324900,9.9,9.7,9.3,8.6,8.5
+Maruti,Suzuki Vitara Brezza Shvs,6,68000.0,Petrol,Automatic (Torque Convertor),1.0,819000.0,1114000,9.5,9.4,8.3,8.1,8.1
+Renault,Kiger Dual Tone,5,21000.0,Petrol,Automatic (Amt),1.0,617000.0,812000,9.8,9.5,9.1,8.9,8.9
+Renault,Kiger 1.0 Dual Tone,4,45000.0,Petrol,Manual (Regular),1.0,650000.0,952000,9.8,9.7,9.1,9.2,8.3
+Volkswagen,Taigun Highline 1.0 Tsi,4,18000.0,Petrol,Manual (Regular),1.0,1023000.0,1549900,9.9,9.9,9.4,9.2,9.1
+Maruti,Suzuki Vitara Brezza Shvs,5,37000.0,Petrol,Automatic (Torque Convertor),1.0,825000.0,998000,9.8,9.7,8.7,8.3,8.1
+Maruti,Suzuki Vitara Brezza,4,41000.0,Petrol,Manual (Regular),1.0,880000.0000000001,1198000,9.8,9.7,9.0,8.8,8.9
+Ford,Ecosport Trend+ 1.5L,9,128000.0,Diesel,Manual (Regular),2.0,521000.0,874000,9.5,9.0,8.1,7.9,8.4
+Volkswagen,Taigun Highline 1.0 Tsi Mt*,2,11000.0,Petrol,Manual (Regular),1.0,1316000.0,1542900,9.9,9.9,9.5,9.1,9.2
+Kia,Sonet 1.0,3,50000.0,Petrol,Automatic (Dct),1.0,969999.9999999999,1229000,9.6,9.5,9.3,8.5,8.4
+Kia,Seltos 1.4,6,89000.0,Petrol,Automatic (Dct),2.0,1018000.0,1729000,9.7,9.1,8.7,8.7,8.4
+Nissan,Magnite Xv,4,54000.0,Petrol,Automatic (Cvt),1.0,757000.0,1030000,9.8,9.5,8.8,8.8,8.0
+Hyundai,Venue 1.0,3,20000.0,Petrol,Automatic (Dct),1.0,1131000.0,1272000,9.9,9.9,9.7,9.5,8.7
+Tata,Punch Creative Dual Tone,4,27000.0,Petrol,Automatic (Amt),1.0,759000.0,954900,9.8,9.7,9.6,9.3,8.3
+Mahindra,Xuv700 Ax 7 Luxury Pack 7 Str,3,98000.0,Diesel,Automatic (Torque Convertor),1.0,1971000.0,2495000,9.5,9.4,8.3,8.4,8.0
+Nissan,Magnite Xv,3,37000.0,Petrol,Automatic (Cvt),1.0,858000.0,1086000,9.9,9.7,9.6,9.6,8.5
+Hyundai,Creta 1.4 7,6,107000.0,Petrol,Automatic (Dct),1.0,1078000.0,1720000,9.6,9.2,8.0,8.3,7.5
+Mahindra,Xuv700 Ax 5 5 Str,4,113000.0,Petrol,Automatic (Torque Convertor),1.0,1436000.0,1839000,9.6,9.1,8.5,8.5,8.2
+Hyundai,Creta 1.4 7 Dct*,4,43000.0,Petrol,Automatic (Dct),1.0,1449000.0,1787000,9.8,9.6,8.8,8.9,8.3
+Mahindra,Kuv100 Nxt K2 6 Str,8,36000.0,Petrol,Manual (Regular),1.0,351000.0,439000,9.7,9.3,7.8,8.6,8.2
+Maruti,Suzuki S-Cross 1.3,8,66000.0,Diesel,Manual (Regular),1.0,735000.0,998000,9.7,9.6,8.9,8.2,8.0
+Kia,Seltos 1.5,6,101000.0,Petrol,Manual (Regular),1.0,821000.0000000001,1334000,9.4,9.3,8.0,7.6,8.2
+Mahindra,Xuv 300 1.2 Petrol*,4,37000.0,Petrol,Manual (Regular),1.0,897000.0000000001,1221000,9.9,9.8,9.2,8.4,8.9
+Hyundai,Alcazar Signature 7 Seater 1.5,4,64000.0,Diesel,Automatic (Torque Convertor),1.0,1537000.0,2110000,9.2,8.7,8.7,8.5,8.2
+Maruti,Suzuki Grand Vitara Smart Hybrid Allgrip*,4,59000.0,Petrol,Manual (Regular),2.0,1214000.0,1689000,9.8,9.6,9.0,9.2,8.5
+Hyundai,Alcazar Platinum 7 Str 1.5,3,25000.0,Diesel,Manual (Regular),1.0,1673000.0,2113000,9.9,9.7,9.6,9.5,9.0
+Mg,Motors Hector Sharp 2.0,6,93000.0,Diesel,Manual (Regular),1.0,1074000.0,1728000,9.5,9.1,8.7,8.5,7.3
+Hyundai,Creta 1.4 7,5,54000.0,Petrol,Automatic (Dct),1.0,1341000.0,1782000,9.8,9.5,8.0,8.1,8.1
+Hyundai,Creta 1.6,10,112000.0,Petrol,Manual (Regular),1.0,654000.0,1119000,9.6,9.1,7.9,7.7,8.9
+Hyundai,Creta 1.5 Ivt,4,93000.0,Petrol,Automatic (Cvt),1.0,1184000.0,1558000,9.7,9.4,8.9,8.7,8.2
+Kia,Seltos 1.4,4,47000.0,Petrol,Automatic (Dct),1.0,1383000.0,1749000,9.8,9.6,9.3,8.8,8.2
+Ford,Ecosport Titanium 1.5L Ti-Vct,5,61000.0,Petrol,Automatic (Torque Convertor),1.0,823000.0,1171000,9.8,9.6,9.0,8.9,7.9
+Kia,Sonet X Line 1.5,3,35000.0,Diesel,Automatic (Torque Convertor),1.0,1292000.0,1489000,9.8,9.8,9.3,9.3,8.8
+Mg,Motors Hector Sharp 2.0 Diesel*,6,57000.0,Diesel,Manual (Regular),1.0,1233000.0,1728000,9.8,9.4,9.2,9.0,8.5
+Honda,Wr-V Vx,4,21000.0,Petrol,Manual (Regular),1.0,782000.0,1037000,9.9,9.8,9.0,9.0,8.8
+Nissan,Magnite Xv Dual Tone,3,70000.0,Petrol,Manual (Regular),1.0,640000.0,875000,9.7,9.3,8.2,8.5,7.9
+Maruti,Suzuki S-Cross 1.6,10,100000.0,Diesel,Manual (Regular),2.0,579000.0,1203000,9.5,9.1,7.7,7.8,8.4
+Mahindra,Xuv500 W11,8,102000.0,Diesel,Automatic (Torque Convertor),1.0,1145000.0,1898000,9.3,9.2,8.1,7.6,7.6
+Skoda,Kushaq Ambition 1.0L Tsi,3,25000.0,Petrol,Manual (Regular),2.0,1010000.0,1199000,9.9,9.8,9.4,9.4,9.0
+Hyundai,Creta 1.6,9,123000.0,Petrol,Manual (Regular),1.0,665000.0,1208000,9.5,9.1,7.6,7.7,8.8
+Renault,Kiger Dual Tone*,4,23000.0,Petrol,Automatic (Cvt),1.0,755000.0,1062000,9.3,9.6,9.2,9.5,8.0
+Maruti,Suzuki Brezza Dual Tone,3,41000.0,Petrol,Automatic (Torque Convertor),1.0,1133000.0,1414000,9.8,9.6,9.2,9.1,8.3
+Hyundai,Creta Ex 1.5,3,15000.0,Petrol,Manual (Regular),1.0,1108000.0,1087000,9.9,9.9,9.5,9.4,9.3
+Ford,Ecosport Ambiente 1.5,13,117000.0,Diesel,Manual (Regular),1.0,388000.0,668700,9.4,8.9,8.0,7.7,8.7
+Mahindra,Thar Lx Hard 4Wd,2,15000.0,Diesel,Manual (Regular),1.0,1540000.0,1660000,9.9,9.9,9.7,9.5,9.4
+Kia,Sonet 1.5 Imt,3,28000.0,Diesel,Manual (Regular),1.0,989000.0,1195000,9.9,9.8,9.6,9.3,9.1
+Maruti,Suzuki Grand Vitara Intelligent Hybrid Ecvt,2,24000.0,Hybrid,Automatic (Cvt),1.0,1655999.9999999998,1833000,9.9,9.7,9.7,9.1,8.9
+Mahindra,Scorpio N Z8 L 7 Str,3,55000.0,Petrol,Automatic (Torque Convertor),1.0,1821000.0,2156000,9.8,9.6,9.4,9.1,8.1
+Mg,Motors Hector Sharp Pro 2.0 6 Str,3,26000.0,Diesel,Manual (Regular),1.0,1855000.0,2242800,9.9,9.8,9.6,9.5,8.8
+Hyundai,Alcazar Signature 6 Str 1.5,3,30000.0,Petrol,Automatic (Dct),1.0,1791000.0,2065000,9.9,9.7,9.4,9.1,8.6
+Skoda,Kushaq Ambition 1.0L Tsi,5,112000.0,Petrol,Automatic (Torque Convertor),1.0,905000.0000000001,1419000,9.6,9.2,8.1,8.2,8.2
+Mahindra,Xuv700 Ax 5 5 Str,5,95000.0,Petrol,Automatic (Torque Convertor),1.0,1352000.0,1719000,9.7,9.3,8.5,8.5,8.8
+Renault,Kiger,4,89000.0,Petrol,Automatic (Amt),1.0,557000.0,800000,9.4,8.9,8.6,8.8,8.5
+Mahindra,Xuv700 Ax 5 5 Str,3,54000.0,Diesel,Manual (Regular),1.0,1597000.0,1684800,9.8,9.6,9.2,9.1,8.7
+Hyundai,Tucson Signature 2.0,4,19000.0,Petrol,Automatic (Torque Convertor),1.0,2451000.0,2856000,9.9,9.9,9.7,9.5,8.8
+Tata,Punch Creative Dual Tone,4,16000.0,Petrol,Automatic (Amt),1.0,770000.0,954900,9.9,9.8,9.2,9.5,9.3
+Mg,Motors Hector Super 1.5 Petrol*,7,45000.0,Petrol,Manual (Regular),1.0,1011000.0,1218000,9.8,9.5,9.2,8.6,8.5
+Kia,Seltos 1.5 Dual Tone,4,58000.0,Diesel,Automatic (Torque Convertor),1.0,1459000.0,1845000,9.6,9.2,8.7,9.0,8.4
+Renault,Kiger,3,21000.0,Petrol,Manual (Regular),1.0,652000.0,999000,9.8,9.7,9.6,9.1,8.9
+Renault,Duster,6,46000.0,Petrol,Manual (Regular),1.0,748000.0,1359000,9.8,9.7,9.0,8.9,8.6
+Maruti,Suzuki Vitara Brezza Zdi Ags,8,125000.0,Diesel,Automatic (Amt),1.0,631000.0,975000,9.1,7.7,7.4,7.8,8.0
+Maruti,Suzuki S-Cross 1.6*,11,131000.0,Diesel,Manual (Regular),2.0,445000.0,1199000,9.0,8.8,7.7,6.9,8.4
+Mahindra,Thar Lx Hard 4Wd,3,44000.0,Diesel,Automatic (Torque Convertor),1.0,1371000.0,1685000,9.8,9.7,9.4,9.5,8.5
+Hyundai,Creta 1.6 Auto Petrol*,10,110000.0,Petrol,Automatic (Torque Convertor),1.0,732000.0,1357000,9.5,9.0,8.5,8.0,8.1
+Honda,Wr-V Vx I-Vtec Petrol+Cng(Outside Fitted),7,46000.0,Cng,Manual (Regular),1.0,631000.0,975000,9.8,9.5,8.7,8.6,8.0
+Mahindra,Tuv300 T4,8,95000.0,Diesel,Manual (Regular),1.0,574000.0,817000,9.7,9.4,8.7,8.9,8.8
+Hyundai,Creta S 1.5 Knight*,3,26000.0,Diesel,Manual (Regular),1.0,1436000.0,1450800,9.9,9.8,9.3,9.4,8.8
+Tata,Nexon Ev Empowered Long Range,2,19000.0,Electric,Automatic,1.0,1159000.0,1929000,9.709160305343513,9.450763358778625,8.820229007633587,8.648275862068967,8.382824427480918
+Kia,Sonet Anniversary 1.5 At*,5,46000.0,Diesel,Automatic (Torque Convertor),1.0,986999.9999999999,1176000,9.8,8.6,9.1,7.6,8.1
+Maruti,Suzuki Brezza Dual Tone,4,40000.0,Petrol,Manual (Regular),1.0,901000.0,1114000,9.8,9.7,9.2,9.1,8.6
+Hyundai,Venue 1.0,7,66000.0,Petrol,Automatic (Dct),1.0,769000.0,1110000,9.8,9.5,7.8,8.1,8.0
+Tata,Punch Ev Empowered S Long Range*,2,27000.0,Electric,Automatic,1.0,941000.0,1449000,9.709160305343513,9.450763358778625,8.820229007633587,8.648275862068967,8.382824427480918
+Ford,Ecosport Titanium 1.5L,7,105000.0,Diesel,Manual (Regular),3.0,519000.00000000006,1067000,9.2,8.8,8.6,8.3,7.5
+Mahindra,Thar Lx Hard 4Wd,5,52000.0,Diesel,Manual (Regular),1.0,1139000.0,1376000,9.8,9.7,9.1,8.8,8.5
+Tata,Nexon Dual Tone,7,59000.0,Diesel,Manual (Regular),1.0,730000.0,1090000,9.7,9.2,8.5,8.4,8.3
+Kia,Sonet 1.0,3,15000.0,Petrol,Automatic (Dct),2.0,997000.0000000001,1229000,9.9,9.8,9.4,8.9,8.7
+Tata,Nexon Ev Lux*,5,86000.0,Electric,Automatic,1.0,791000.0,1665000,9.709160305343513,9.450763358778625,8.820229007633587,8.648275862068967,8.382824427480918
+Kia,Seltos 1.5,4,103000.0,Diesel,Manual (Regular),1.0,1207000.0,1539000,9.5,9.2,8.2,8.1,8.2
+Mahindra,Xuv700 Ax 7 Luxury Pack 7 Str,4,72000.0,Diesel,Manual (Regular),1.0,1832000.0,2159000,9.7,9.5,9.1,8.9,8.7
+Tata,Punch Creative Amt*,4,50000.0,Petrol,Automatic (Amt),1.0,678000.0,849900,9.7,9.6,9.1,9.0,7.9
+Mahindra,Thar Lx Hard 4Wd,5,60000.0,Diesel,Automatic (Torque Convertor),2.0,1172000.0,1415000,9.6,9.6,9.0,8.4,7.8
+Ford,Ecosport Trend 1.5L,8,53000.0,Diesel,Manual (Regular),1.0,659000.0,999900,9.8,9.6,9.0,9.0,8.6
+Ford,Ecosport Trend 1.5 Tdci*,13,129000.0,Diesel,Manual (Regular),3.0,306000.0,780000,9.5,8.3,7.3,7.2,7.4
+Hyundai,Venue 1.0 Dct*,7,65000.0,Petrol,Automatic (Dct),1.0,744000.0,1111000,9.7,9.6,8.9,8.2,7.8
+Hyundai,Creta 1.5 Mpi Ex,2,11000.0,Petrol,Manual (Regular),1.0,1150000.0,1099900,9.9,9.9,9.5,9.0,9.5
+Tata,Nexon,5,58000.0,Petrol,Manual (Regular),1.0,540000.0,719900,9.2,9.1,8.3,8.1,8.5
+Hyundai,Alcazar Signature 6 Str 1.5,5,67000.0,Diesel,Automatic (Torque Convertor),1.0,1446000.0,2014500,9.6,9.5,8.9,8.3,8.1
+Nissan,Magnite Xv Dual Tone,5,28000.0,Petrol,Manual (Regular),2.0,554000.0,709000,9.9,9.8,9.4,8.7,8.7
+Hyundai,Venue 1.2,4,27000.0,Petrol,Manual (Regular),1.0,869000.0,989000,9.9,9.8,9.1,9.0,8.6
+Kia,Seltos 1.5,6,66000.0,Diesel,Automatic (Torque Convertor),1.0,1302000.0,1659000,9.6,9.5,8.9,8.2,8.3
+Mahindra,Thar Lx Hard 4Wd,4,70000.0,Diesel,Automatic (Torque Convertor),1.0,1269000.0,1415000,9.7,9.5,9.2,9.2,7.8
+Mg,Motors Hector Sharp 1.5,6,41000.0,Petrol,Automatic (Dct),1.0,1173000.0,1728000,9.8,9.7,9.0,9.0,8.2
+Ford,Ecosport Trend 1.5 Tdci*,11,97000.0,Diesel,Manual (Regular),2.0,438000.0,860000,9.6,9.2,8.1,8.2,8.2
+Kia,Sonet 1.0,6,38000.0,Petrol,Automatic (Dct),1.0,933000.0,1289000,9.8,9.7,9.0,8.5,8.5
+Ford,Ecosport Titanium + 1.5L,7,106000.0,Diesel,Manual (Regular),1.0,696000.0,1067000,9.6,9.3,8.4,8.2,8.0
+Kia,Seltos 1.4,5,62000.0,Petrol,Automatic (Dct),1.0,1209000.0,1734000,9.8,9.4,9.1,8.2,7.6
+Mg,Motors Hector Sharp 1.5,5,69000.0,Petrol,Automatic (Cvt),1.0,1274000.0,1769800,9.5,9.5,9.1,8.8,8.5
+Mg,Motors Hector Sharp 1.5,5,48000.0,Petrol,Automatic (Dct),2.0,1271000.0,1843000,9.8,9.7,9.3,8.9,8.3
+Ford,Ecosport Thunder,7,58000.0,Petrol,Manual (Regular),2.0,690000.0,1018000,9.8,9.6,8.8,8.2,8.2
+Volkswagen,Taigun Topline 1.0 Tsi Mt*,3,50000.0,Petrol,Manual (Regular),2.0,1125000.0,1542900,9.8,9.7,9.4,8.9,8.3
+Hyundai,Venue 1.5 Crdi Executive,5,43000.0,Diesel,Manual (Regular),1.0,965000.0,1185000,9.8,9.7,8.3,8.4,8.1
+Hyundai,Venue 1.4 Crdi,7,106000.0,Diesel,Manual (Regular),1.0,793000.0,1110000,9.6,9.3,8.3,8.1,8.2
+Ford,Ecosport Trend+ 1.0L Ecoboost,10,37000.0,Petrol,Manual (Regular),1.0,555000.0,919600,9.8,9.7,9.2,8.7,8.8
+Tata,Safari 6 S Red Dark,3,19000.0,Diesel,Automatic (Torque Convertor),1.0,1914000.0,2659900,9.5,8.3,9.2,9.6,8.9
+Maruti,Suzuki S-Cross,4,24000.0,Petrol,Manual (Regular),1.0,936000.0,1256000,9.9,9.8,9.3,9.1,8.8
+Hyundai,Exter Connect 1.2,2,20000.0,Petrol,Automatic (Amt),1.0,873000.0,1027000,9.9,9.9,9.6,9.4,8.8
+Mg,Motors Hector Sharp 2.0 Diesel*,7,75000.0,Diesel,Manual (Regular),1.0,1102000.0,1728000,9.5,9.3,8.6,8.2,7.6
+Ford,Freestyle Titanium 1.2 Ti-Vct*,8,86000.0,Petrol,Manual (Regular),1.0,454000.0,659000,9.4,9.3,8.3,8.4,8.3
+Hyundai,Creta 1.6,9,84000.0,Petrol,Automatic (Torque Convertor),2.0,770000.0,1358000,9.6,9.3,8.2,8.2,8.3
+Ford,Ecosport Titanium + 1.5L Ti-Vct,8,68000.0,Petrol,Automatic (Torque Convertor),2.0,658000.0,1137000,9.7,9.4,8.6,8.2,7.9
+Hyundai,Creta 1.6 Crdi Dual Tone,8,113000.0,Diesel,Manual (Regular),1.0,859000.0,1358000,9.4,8.6,8.1,7.8,8.6
+Kia,Seltos 1.4,7,40000.0,Petrol,Manual (Regular),2.0,1058000.0,1669000,9.8,9.7,8.9,8.6,8.1
+Skoda,Kushaq Style 1.5L Tsi Dsg*,5,60000.0,Petrol,Automatic (Dct),1.0,1248000.0,1619000,9.8,9.6,8.1,9.1,8.2
+Ford,Ecosport Titanium 1.5 (Opt),12,94000.0,Diesel,Manual (Regular),2.0,476000.0,980000,9.4,8.9,8.0,7.7,7.6
+Volkswagen,Taigun Topline 1.0 Tsi,4,34000.0,Petrol,Manual (Regular),1.0,1136000.0,1539900,9.9,9.8,9.4,9.3,8.8
+Tata,Nexon Luxs Dark,3,24000.0,Petrol,Automatic (Amt),1.0,1066000.0,1259900,9.9,9.8,9.6,8.7,8.8
+Hyundai,Creta E 1.4 Crdi,8,118000.0,Diesel,Manual (Regular),1.0,717000.0,999900,9.5,9.2,8.2,7.3,8.4
+Tata,Nexon,8,96000.0,Diesel,Manual (Regular),1.0,562000.0,873000,9.2,8.8,7.4,7.9,7.9
+Tata,Punch Creative,3,21000.0,Petrol,Automatic (Amt),1.0,795000.0,974900,9.9,9.8,9.7,9.3,8.7
+Mahindra,Thar Lx Hard 4Wd*,4,67000.0,Diesel,Automatic (Torque Convertor),1.0,1244000.0,1415000,9.5,9.2,8.4,9.0,7.9
+Mahindra,Xuv700 Ax5 7 Str,2,49000.0,Diesel,Manual (Regular),1.0,1780999.9999999998,1824000,9.8,9.7,9.5,8.8,8.5
+Tata,Harrier Xma*,6,39000.0,Diesel,Automatic (Torque Convertor),1.0,1184000.0,1780000,9.8,9.7,9.1,8.2,8.7
+Skoda,Kushaq Style 1.5L Tsi Mt*,5,51000.0,Petrol,Manual (Regular),2.0,1044999.9999999999,1619000,9.8,9.7,8.2,8.7,8.7
+Ford,Ecosport Titanium + 1.5L Ti-Vct,8,68000.0,Petrol,Automatic (Torque Convertor),1.0,703000.0,1137000,9.8,9.6,9.0,8.5,8.2
+Nissan,Magnite Xv,2,25000.0,Petrol,Manual (Regular),1.0,673000.0,860000,9.9,9.8,9.7,9.5,9.0
+Renault,Kiger Dual Tone,3,25000.0,Petrol,Manual (Regular),1.0,624000.0,817000,9.9,9.8,9.3,9.5,9.2
+Hyundai,Venue 1.2,3,36000.0,Petrol,Manual (Regular),1.0,892000.0,1089900,9.9,9.8,8.9,8.7,8.1
+Maruti,Suzuki Brezza Dual Tone,4,123000.0,Petrol,Manual (Regular),1.0,882000.0,1246000,9.6,9.2,8.0,8.2,8.1
+Honda,Br-V S,8,79000.0,Diesel,Manual (Regular),2.0,655000.0,1134000,9.6,9.2,8.3,6.3,8.2
+Tata,Punch Creative Dual Tone Sunroof,2,19000.0,Petrol,Automatic (Amt),1.0,876000.0,989900,9.9,9.8,9.2,9.2,8.8
+Mahindra,Xuv700 Ax 7 Luxury Pack 7 Str*,4,54000.0,Diesel,Manual (Regular),1.0,1859000.0,2145000,9.8,9.6,9.0,9.0,8.4
+Maruti,Suzuki Brezza Dual Tone,3,36000.0,Petrol,Manual (Regular),1.0,1014000.0,1248000,9.9,9.8,9.4,8.9,8.7
+Hyundai,Creta 1.4 7,6,92000.0,Petrol,Automatic (Dct),1.0,1086000.0,1616000,9.6,9.1,8.9,8.6,8.2
+Hyundai,Creta 1.6,11,104000.0,Petrol,Manual (Regular),1.0,641000.0,1119000,9.6,9.2,7.4,8.2,8.8
+Ford,Ecosport Titanium 1.5L Ti-Vct,0,0.0,,,1.0,693000.0,1099000,9.709160305343513,9.450763358778625,8.820229007633587,8.648275862068967,8.382824427480918
+Hyundai,Venue 1.0,3,55000.0,Petrol,Automatic (Dct),1.0,1032000.0,1272000,9.7,9.6,9.4,9.0,7.5
+Hyundai,Creta 1.6,10,107000.0,Diesel,Manual (Regular),2.0,755000.0,1376880,9.4,8.9,7.1,7.4,8.6
+Hyundai,Alcazar Signature 6 Str 1.5 Diesel*,4,82000.0,Diesel,Manual (Regular),1.0,1442000.0,1999900,9.7,9.5,9.0,8.5,8.9
+Maruti,Suzuki Brezza,3,36000.0,Petrol,Manual (Regular),1.0,1030000.0000000001,1248000,9.9,9.8,9.5,9.4,8.8
+Mahindra,Xuv 300 1.2,3,14000.0,Petrol,Automatic (Amt),1.0,903999.9999999999,1145000,9.9,9.7,9.4,9.2,9.0
+Tata,Punch Creative Amt*,2,10000.0,Petrol,Automatic (Amt),1.0,842000.0,989900,9.9,9.9,8.1,9.8,9.3
+Hyundai,Creta 1.6,7,76000.0,Petrol,Manual (Regular),1.0,821000.0000000001,1346000,9.7,9.5,8.7,8.4,8.4
+Tata,Nexon,8,116000.0,Petrol,Automatic (Amt),1.0,600000.0,1030000,9.4,9.1,8.6,8.2,7.2
+Tata,Curvv Creative S 1.5 Kryojet 6Mt*,2,19000.0,Diesel,Manual (Regular),1.0,1454000.0,1399900,9.9,9.9,9.4,9.3,9.3
