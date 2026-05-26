@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>ResaleX AI | SUV Resale Engine</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Hanken+Grotesk:wght@100..900&family=JetBrains+Mono:wght@100..800&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <style>
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 60px rgba(0, 240, 255, 0.4); }
+            50% { box-shadow: 0 0 120px rgba(0, 240, 255, 0.8); }
+        }
+        .animate-pulse-glow {
+            animation: pulse-glow 3s infinite ease-in-out;
+        }
+        .glass-panel {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+            backdrop-filter: blur(40px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-top: 2px solid rgba(255, 255, 255, 0.4);
+            border-left: 2px solid rgba(255, 255, 255, 0.4);
+        }
+        
+        /* Force Input & Select Sizes */
+        input:focus, select:focus {
+            outline: none;
+            border-color: #00f0ff !important;
+        }
+        
+        select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        /* MASSIVELY INCREASED DROPDOWN LIST FONT SIZE */
+        select option {
+            background-color: #1a1d1e;
+            color: #ffffff;
+            font-size: 48px !important; /* Huge dropdown list text */
+            padding: 30px;
+        }
+        
+        /* Remove number input arrows */
+        input[type=number]::-webkit-inner-spin-button, 
+        input[type=number]::-webkit-outer-spin-button { 
+            -webkit-appearance: none; 
+            margin: 0; 
+        }
+
+        .particle-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            opacity: 0.6;
+        }
+    </style>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+                "background": "#0a0c0d",
+                "primary-container": "#00f0ff",
+                "secondary": "#dcb8ff"
+            },
+            fontFamily: {
+                "headline": ["Sora", "sans-serif"],
+                "body": ["Hanken Grotesk", "sans-serif"],
+                "mono": ["JetBrains Mono", "monospace"]
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-background text-gray-100 font-body selection:bg-primary-container selection:text-[#004f54] overflow-x-hidden min-h-screen">
+    
+    <header class="absolute top-0 left-0 w-full z-40 bg-transparent border-b border-white/10 backdrop-blur-md">
+        <div class="flex justify-center items-center h-[140px]">
+            <h1 class="font-headline text-[48px] font-extrabold uppercase tracking-[0.3em] text-primary-container drop-shadow-lg">ResaleX AI</h1>
+        </div>
+    </header>
+
+    <main class="w-full">
+        <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-[220px] pb-[160px]">
+            
+            <div class="absolute inset-0 z-0">
+                <img alt="Hero Background" class="w-full h-full object-cover opacity-60 scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXv4eJJQ4j2oUc82fLfwa4A9zuvCtHgwVMOsinF5B26WmFg8klu8BkKMtwGfGMfXgQhnpLiNp75Expep83P_L3dDz4GRShoXt0KaHQ0OfnjHVylUPsNCnsS5ZR-PYXvkG5XXc7DS406jG6MnUfRiiGGHZpgEpMmUkFkHF2CAluWKWyGiSRAyhYELoSVN30mHcRlhtzmMotpqYPvEdY8exTqzpgBpTUMC4V09WwGfUdflV90FeOAmoSMYBeyfBGLBfXFX_PqnZErD1P"/>
+                <div class="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-r from-background/90 via-transparent to-background/90"></div>
+            </div>
+            
+            <canvas class="particle-canvas z-10" id="heroParticles"></canvas>
+            
+            <div class="relative z-20 flex flex-col items-center w-full px-8">
+                
+                <div class="text-center w-full max-w-[1500px] mx-auto mb-[100px] flex flex-col items-center">
+                    
+                    <h2 class="font-headline text-[120px] leading-[1.1] mb-12 text-white font-black tracking-tight drop-shadow-2xl">
+                        THE FUTURE OF <br/>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-container to-secondary">INTELLIGENT RESALE</span>
+                    </h2>
+                    <p class="font-body text-[60px] text-gray-100 max-w-[1200px] mx-auto leading-relaxed drop-shadow-md">
+                        SUV Resale Price Prediction using XGBoost
+                    </p>
+                </div>
+
+                <div class="w-full max-w-[1600px] mx-auto">
+                    <div class="glass-panel p-[120px] rounded-[64px] shadow-2xl relative overflow-hidden">
+                        
+                        <div class="absolute -top-[400px] -right-[400px] w-[800px] h-[800px] bg-primary-container/15 blur-[250px] rounded-full"></div>
+                        <div class="absolute -bottom-[400px] -left-[400px] w-[800px] h-[800px] bg-secondary/15 blur-[250px] rounded-full"></div>
+
+                        <form class="relative z-10 grid grid-cols-2 gap-x-[120px] gap-y-[90px]">
+                            
+                            <div class="flex flex-col gap-6">
+                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">BRAND</label>
+                                <div class="relative h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
+                                    <select id="brand" class="w-full h-full bg-transparent text-[48px] leading-tight font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-4 pr-[100px]">
+                                        </select>
+                                    <span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-primary-container text-[64px] pointer-events-none z-10">expand_more</span>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-6">
+                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">MODEL</label>
+                                <div class="relative h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
+                                    <select id="model" class="w-full h-full bg-transparent text-[48px] leading-tight font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-4 pr-[100px]">
+                                        </select>
+                                    <span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-primary-container text-[64px] pointer-events-none z-10">expand_more</span>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-6">
+                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">FUEL TYPE</label>
+                                <div class="relative h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
+                                    <select id="fuel" class="w-full h-full bg-transparent text-[48px] leading-tight font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-4 pr-[100px]">
+                                        <option>Petrol</option>
+                                        <option>Diesel</option>
+                                        <option>Hybrid</option>
+                                        <option>Electric</option>
+                                    </select>
+                                    <span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-primary-container text-[64px] pointer-events-none z-10">expand_more</span>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-6">
+                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">TRANSMISSION</label>
+                                <div class="relative h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
+                                    <select id="transmission" class="w-full h-full bg-transparent text-[48px] leading-tight font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-4 pr-[100px]">
+                                        <option>Automatic (AMT)</option>
+                                        <option>Automatic (DCT)</option>
+                                        <option>Manual</option>
+                                    </select>
+                                    <span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-primary-container text-[64px] pointer-events-none z-10">expand_more</span>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col justify-end gap-8">
+                                <div class="flex justify-between items-center h-[120px] border-b-[5px] border-transparent">
+                                    <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">CAR AGE (YEARS)</label>
+                                    <span class="font-headline text-[72px] font-bold text-primary-container leading-none" id="ageValue">5</span>
+                                </div>
+                                <input id="car_age" class="w-full h-[12px] bg-white/30 rounded-full appearance-none cursor-pointer accent-primary-container -mt-4" type="range" min="0" max="15" value="5" oninput="document.getElementById('ageValue').innerText=this.value">
+                            </div>
+
+                            <div class="flex flex-col gap-6">
+                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">OWNER COUNT</label>
+                                <div class="relative h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
+                                    <select id="owner" class="w-full h-full bg-transparent text-[48px] leading-tight font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-4 pr-[100px]">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                    <span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-primary-container text-[64px] pointer-events-none z-10">expand_more</span>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-6">
+                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">KILOMETERS DRIVEN</label>
+                                <div class="flex items-center h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container px-6 bg-white/5 rounded-t-2xl">
+                                    <input id="km" type="number" value="50000" class="bg-transparent border-none focus:ring-0 text-[64px] font-headline text-white w-full h-full px-0 tracking-wider">
+                                    <span class="font-mono text-[36px] font-bold text-gray-400 ml-8">KM</span>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col gap-6">
+                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">ESTIMATED ORIGINAL PRICE</label>
+                                <div class="flex items-center h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container px-6 bg-white/5 rounded-t-2xl">
+                                    <span class="font-headline text-[72px] text-gray-400 mr-8">₹</span>
+                                    <input id="original_price" type="number" value="2000000" class="bg-transparent border-none focus:ring-0 text-[64px] font-headline text-white w-full h-full px-0 tracking-wider">
+                                </div>
+                            </div>
+
+                            <div class="col-span-2 mt-[100px] flex flex-col items-center">
+                                <button id="predictBtn" type="button" class="relative bg-primary-container text-[#004f54] font-headline font-black text-[48px] py-[48px] px-[120px] rounded-[48px] transition-all duration-300 shadow-[0_0_80px_rgba(0,240,255,0.5)] hover:shadow-[0_0_130px_rgba(0,240,255,0.9)] hover:scale-[1.03] animate-pulse-glow flex items-center justify-center gap-10 w-full max-w-[1100px]">
+                                    PREDICT RESALE PRICE
+                                    <span class="material-symbols-outlined font-black text-[72px]">bolt</span>
+                                </button>
+                                
+                                <p class="font-mono text-[28px] tracking-[0.3em] text-gray-400 mt-12 flex items-center gap-6">
+    <span class="material-symbols-outlined text-[40px] text-primary-container">
+        verified_user
+    </span>
+    Predicted prices are estimates based on historical SUV market data and are for informational purposes only.
+</p>
+                            </div>
+
+                            <div class="col-span-2 mt-12 w-full">
+                                <div id="resultBox" class="hidden glass-panel py-[120px] px-[100px] rounded-[72px] text-center border-[5px] border-primary-container/50 bg-primary-container/10 transition-all duration-500 shadow-[0_0_120px_rgba(0,240,255,0.15)]">
+                                    <h2 class="font-headline text-[64px] font-bold text-white mb-12">Estimated RESALE PRICE</h2>
+                                    <p id="predictionText" class="font-headline text-[200px] font-black text-primary-container leading-none drop-shadow-2xl mb-16 tracking-tight">₹ 0</p>
+                                    <p class="font-body text-[40px] text-gray-300">AI-Powered XGBoost Neural Prediction</p>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Data injected dynamically from dataset analysis
+        const brandModelsData = {
+          "Audi": ["Q3 30 Tfsi Premium*", "Q3 40 Tfsi Technology*", "Q5 45 Tfsi Technology*"],
+          "Bmw": ["X1 Sdrive18D M Sport*"],
+          "Ford": ["Ecosport Trend 1.5", "Ecosport Titanium+ 1.5L", "Ecosport Titanium 1.5L Ti-Vct", "Ecosport Titanium 1.5", "Ecosport Trend+ 1.5L", "Ecosport Ambiente 1.5", "Ecosport Titanium 1.5L", "Ecosport Trend 1.5L", "Ecosport Trend 1.5 Tdci*", "Ecosport Titanium + 1.5L", "Ecosport Thunder", "Ecosport Trend+ 1.0L Ecoboost", "Freestyle Titanium 1.2 Ti-Vct*", "Ecosport Titanium + 1.5L Ti-Vct", "Ecosport Titanium 1.5 (Opt)"],
+          "Honda": ["Elevate Vx", "Wr-V Vx", "Wr-V Vx I-Vtec Petrol+Cng(Outside Fitted)", "Br-V S"],
+          "Hyundai": ["Creta 1.5", "Venue 1.5 Crdi", "Creta 1.5 Ivt", "Venue 1.2", "Alcazar Signature 6 Str 1.5 Diesel*", "Creta 1.6 Crdi*", "Creta 1.6", "Venue 1.0", "Creta 1.4 7", "Creta 1.4 7 Dct*", "Alcazar Signature 7 Seater 1.5", "Alcazar Platinum 7 Str 1.5", "Creta Ex 1.5", "Alcazar Signature 6 Str 1.5", "Tucson Signature 2.0", "Creta 1.6 Auto Petrol*", "Creta S 1.5 Knight*", "Venue 1.0 Dct*", "Creta 1.5 Mpi Ex", "Venue 1.5 Crdi Executive", "Venue 1.4 Crdi", "Exter Connect 1.2", "Creta 1.6 Crdi Dual Tone", "Creta E 1.4 Crdi"],
+          "Jeep": ["Compass Limited", "Compass Trailhawk 2.0 4X4", "Compass Limited 2.0 4X4 At*"],
+          "Kia": ["Sonet 1.0", "Seltos 1.5*", "Seltos 1.4", "Seltos Ivt 1.5*", "Seltos 1.5", "Sonet 1.5", "Seltos 1.5 Ivt", "Sonet 1.2", "Sonet Anniversary 1.5", "Seltos 1.4*", "Seltos 1.4 Dual Tone", "Sonet X Line 1.5", "Sonet 1.5 Imt", "Seltos 1.5 Dual Tone", "Sonet Anniversary 1.5 At*"],
+          "Lexus": ["Nx 300H Luxury"],
+          "Mahindra": ["Xuv500 W11", "Xuv 300 1.5", "Thar Roxx Ax7 L 2Wd", "Xuv700 Ax 7 Luxury Pack 7 Str", "Xuv 300 1.2", "Xuv700 Ax 5 5 Str", "Kuv100 Nxt K2 6 Str", "Xuv 300 1.2 Petrol*", "Thar Lx Hard 4Wd", "Scorpio N Z8 L 7 Str", "Tuv300 T4", "Thar Lx Hard 4Wd*", "Xuv700 Ax5 7 Str", "Xuv700 Ax 7 Luxury Pack 7 Str*"],
+          "Maruti": ["Suzuki Fronx 1.0L 6", "Suzuki S-Cross 1.3", "Suzuki Vitara Brezza Zdi+ Dual Tone", "Suzuki Brezza Plus*", "Suzuki Fronx 1.0L Mt*", "Suzuki Grand Vitara Smart Hybrid*", "Suzuki Vitara Brezza", "Suzuki Fronx 1.0L 6 At*", "Suzuki Brezza", "Suzuki Vitara Brezza Shvs", "Suzuki Grand Vitara Smart Hybrid Allgrip*", "Suzuki S-Cross 1.6", "Suzuki Brezza Dual Tone", "Suzuki Grand Vitara Intelligent Hybrid Ecvt", "Suzuki Vitara Brezza Zdi Ags", "Suzuki S-Cross 1.6*", "Suzuki S-Cross"],
+          "Mg": ["Motors Hector Sharp 2.0", "Motors Hector Sharp 1.5", "Motors Hector Sharp 1.5 6-Str", "Motors Hector Sharp 2.0 6-Str", "Motors Hector Sharp Hybrid 1.5", "Motors Hector Sharp 2.0 Diesel*", "Motors Hector Sharp Pro 2.0 6 Str", "Motors Hector Super 1.5 Petrol*"],
+          "Nissan": ["Magnite Xv Cvt*", "Magnite Xv", "Magnite Xv Dual Tone"],
+          "Renault": ["Kiger", "Duster 110 Ps 4X2", "Captur Rxl Diesel*", "Kiger Dual Tone", "Kiger 1.0 Dual Tone", "Kiger Dual Tone*", "Duster"],
+          "Skoda": ["Kushaq Style 1.5L Tsi Dsg", "Kushaq Ambition 1.0L Tsi", "Kushaq Style 1.5L Tsi Dsg*", "Kushaq Style 1.5L Tsi Mt*"],
+          "Tata": ["Punch Creative Amt*", "Nexon (S)", "Safari Xt", "Nexon Fearless 1.2 Revotron 6Mt", "Nexon Dual Tone", "Nexon", "Punch Creative Flagship Dual Tone Mt*", "Punch Creative Dual Tone", "Nexon Ev Empowered Long Range", "Punch Ev Empowered S Long Range*", "Nexon Ev Lux*", "Safari 6 S Red Dark", "Nexon Luxs Dark", "Punch Creative", "Harrier Xma*", "Punch Creative Dual Tone Sunroof", "Curvv Creative S 1.5 Kryojet 6Mt*"],
+          "Volkswagen": ["Taigun Topline 1.0 Tsi", "Taigun Topline 1.0 Tsi Mt*", "Taigun Highline 1.0 Tsi", "Taigun Highline 1.0 Tsi Mt*"]
+        };
+
+        const brandSelect = document.getElementById("brand");
+        const modelSelect = document.getElementById("model");
+
+        // Initialize Brands Dropdown
+        brandSelect.innerHTML = "";
+        Object.keys(brandModelsData).forEach(brand => {
+            const opt = document.createElement("option");
+            opt.value = brand;
+            opt.innerText = brand;
+            brandSelect.appendChild(opt);
+        });
+
+        // Function to update Models based on selected Brand
+        function updateModels() {
+            const selectedBrand = brandSelect.value;
+            const models = brandModelsData[selectedBrand] || [];
+            modelSelect.innerHTML = "";
+            models.forEach(model => {
+                const opt = document.createElement("option");
+                opt.value = model;
+                opt.innerText = model;
+                modelSelect.appendChild(opt);
+            });
+        }
+
+        // Add event listener to Brand dropdown
+        brandSelect.addEventListener("change", updateModels);
+
+        // Run once on page load to populate initial models
+        updateModels();
+
+        // Predict Button Action
+        document.getElementById("predictBtn").addEventListener("click", function(){
+            let price = parseInt(document.getElementById("original_price").value) || 0;
+            let age = parseInt(document.getElementById("car_age").value) || 0;
+            let km = parseInt(document.getElementById("km").value) || 0;
+
+            let predicted = price - (age * 80000) - (km * 2);
+            if(predicted < 200000){ predicted = 200000; }
+
+            const resultBox = document.getElementById("resultBox");
+            resultBox.classList.remove("hidden");
+            
+            document.getElementById("predictionText").innerHTML = "₹ " + predicted.toLocaleString('en-IN');
+            
+            setTimeout(() => {
+                resultBox.scrollIntoView({ behavior: 'smooth', block: 'end' });
+            }, 50);
+        });
+
+        // Background Particle Animation
+        const canvas = document.getElementById('heroParticles');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+
+        function initParticles() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            particles = [];
+            for (let i = 0; i < 200; i++) {
+                particles.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    size: Math.random() * 4 + 1,
+                    speedX: Math.random() * 2 - 1,
+                    speedY: Math.random() * 2 - 1,
+                    opacity: Math.random() * 0.7 + 0.1
+                });
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach(p => {
+                ctx.fillStyle = `rgba(0, 240, 255, ${p.opacity})`;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                ctx.fill();
+                p.x += p.speedX;
+                p.y += p.speedY;
+                if (p.x < 0 || p.x > canvas.width) p.speedX *= -1;
+                if (p.y < 0 || p.y > canvas.height) p.speedY *= -1;
+            });
+            requestAnimationFrame(animate);
+        }
+
+        window.addEventListener('resize', initParticles);
+        initParticles();
+        animate();
+    </script>
+</body>
+</html>
