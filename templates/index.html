@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
     <style>
         @keyframes pulse-glow {
-            0%, 100% { box-shadow: 0 0 60px rgba(0, 240, 255, 0.4); }
-            50% { box-shadow: 0 0 120px rgba(0, 240, 255, 0.8); }
+            0%, 100% { box-shadow: 0 0 30px rgba(0, 240, 255, 0.4); }
+            50% { box-shadow: 0 0 60px rgba(0, 240, 255, 0.8); }
         }
         .animate-pulse-glow {
             animation: pulse-glow 3s infinite ease-in-out;
@@ -18,9 +18,9 @@
         .glass-panel {
             background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
             backdrop-filter: blur(40px);
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            border-top: 2px solid rgba(255, 255, 255, 0.4);
-            border-left: 2px solid rgba(255, 255, 255, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-top: 1px solid rgba(255, 255, 255, 0.4);
+            border-left: 1px solid rgba(255, 255, 255, 0.4);
         }
         
         /* Force Input & Select Sizes */
@@ -38,12 +38,12 @@
             text-overflow: ellipsis;
         }
         
-        /* MASSIVELY INCREASED DROPDOWN LIST FONT SIZE */
+        /* NORMALIZED DROPDOWN LIST FONT SIZE */
         select option {
             background-color: #1a1d1e;
             color: #ffffff;
-            font-size: 48px !important; /* Huge dropdown list text */
-            padding: 30px;
+            font-size: 16px !important; 
+            padding: 10px;
         }
         
         /* Remove number input arrows */
@@ -86,13 +86,13 @@
 <body class="bg-background text-gray-100 font-body selection:bg-primary-container selection:text-[#004f54] overflow-x-hidden min-h-screen">
     
     <header class="absolute top-0 left-0 w-full z-40 bg-transparent border-b border-white/10 backdrop-blur-md">
-        <div class="flex justify-center items-center h-[140px]">
-            <h1 class="font-headline text-[48px] font-extrabold uppercase tracking-[0.3em] text-primary-container drop-shadow-lg">ResaleX AI</h1>
+        <div class="flex justify-center items-center h-20">
+            <h1 class="font-headline text-2xl font-extrabold uppercase tracking-[0.3em] text-primary-container drop-shadow-lg">ResaleX AI</h1>
         </div>
     </header>
 
     <main class="w-full">
-        <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-[220px] pb-[160px]">
+        <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 pb-24">
             
             <div class="absolute inset-0 z-0">
                 <img alt="Hero Background" class="w-full h-full object-cover opacity-60 scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXv4eJJQ4j2oUc82fLfwa4A9zuvCtHgwVMOsinF5B26WmFg8klu8BkKMtwGfGMfXgQhnpLiNp75Expep83P_L3dDz4GRShoXt0KaHQ0OfnjHVylUPsNCnsS5ZR-PYXvkG5XXc7DS406jG6MnUfRiiGGHZpgEpMmUkFkHF2CAluWKWyGiSRAyhYELoSVN30mHcRlhtzmMotpqYPvEdY8exTqzpgBpTUMC4V09WwGfUdflV90FeOAmoSMYBeyfBGLBfXFX_PqnZErD1P"/>
@@ -102,127 +102,126 @@
             
             <canvas class="particle-canvas z-10" id="heroParticles"></canvas>
             
-            <div class="relative z-20 flex flex-col items-center w-full px-8">
+            <div class="relative z-20 flex flex-col items-center w-full px-4 sm:px-8">
                 
-                <div class="text-center w-full max-w-[1500px] mx-auto mb-[100px] flex flex-col items-center">
-                    
-                    <h2 class="font-headline text-[120px] leading-[1.1] mb-12 text-white font-black tracking-tight drop-shadow-2xl">
+                <div class="text-center w-full max-w-5xl mx-auto mb-16 flex flex-col items-center">
+                    <h2 class="font-headline text-4xl lg:text-5xl leading-tight mb-6 text-white font-black tracking-tight drop-shadow-2xl">
                         THE FUTURE OF <br/>
                         <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-container to-secondary">INTELLIGENT RESALE</span>
                     </h2>
-                    <p class="font-body text-[60px] text-gray-100 max-w-[1200px] mx-auto leading-relaxed drop-shadow-md">
+                    <p class="font-body text-lg lg:text-xl text-gray-100 max-w-3xl mx-auto leading-relaxed drop-shadow-md">
                         SUV Resale Price Prediction using XGBoost
                     </p>
                 </div>
 
-                <div class="w-full max-w-[1600px] mx-auto">
-                    <div class="glass-panel p-[120px] rounded-[64px] shadow-2xl relative overflow-hidden">
+                <div class="w-full max-w-5xl mx-auto">
+                    <div class="glass-panel p-8 md:p-16 rounded-3xl shadow-2xl relative overflow-hidden">
                         
-                        <div class="absolute -top-[400px] -right-[400px] w-[800px] h-[800px] bg-primary-container/15 blur-[250px] rounded-full"></div>
-                        <div class="absolute -bottom-[400px] -left-[400px] w-[800px] h-[800px] bg-secondary/15 blur-[250px] rounded-full"></div>
+                        <div class="absolute -top-[200px] -right-[200px] w-[400px] h-[400px] bg-primary-container/15 blur-[120px] rounded-full"></div>
+                        <div class="absolute -bottom-[200px] -left-[200px] w-[400px] h-[400px] bg-secondary/15 blur-[120px] rounded-full"></div>
 
-                        <form class="relative z-10 grid grid-cols-2 gap-x-[120px] gap-y-[90px]">
+                        <form class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
                             
-                            <div class="flex flex-col gap-6">
-                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">BRAND</label>
-                                <div class="relative h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
-                                    <select id="brand" class="w-full h-full bg-transparent text-[48px] leading-tight font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-4 pr-[100px]">
+                            <div class="flex flex-col gap-3">
+                                <label class="font-mono text-sm font-bold tracking-widest text-gray-300 uppercase">Brand</label>
+                                <div class="relative h-14 border-b-2 border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
+                                    <select id="brand" class="w-full h-full bg-transparent text-lg font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-2 pr-10">
                                         </select>
-                                    <span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-primary-container text-[64px] pointer-events-none z-10">expand_more</span>
+                                    <span class="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-primary-container text-2xl pointer-events-none z-10">expand_more</span>
                                 </div>
                             </div>
 
-                            <div class="flex flex-col gap-6">
-                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">MODEL</label>
-                                <div class="relative h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
-                                    <select id="model" class="w-full h-full bg-transparent text-[48px] leading-tight font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-4 pr-[100px]">
+                            <div class="flex flex-col gap-3">
+                                <label class="font-mono text-sm font-bold tracking-widest text-gray-300 uppercase">Model</label>
+                                <div class="relative h-14 border-b-2 border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
+                                    <select id="model" class="w-full h-full bg-transparent text-lg font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-2 pr-10">
                                         </select>
-                                    <span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-primary-container text-[64px] pointer-events-none z-10">expand_more</span>
+                                    <span class="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-primary-container text-2xl pointer-events-none z-10">expand_more</span>
                                 </div>
                             </div>
 
-                            <div class="flex flex-col gap-6">
-                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">FUEL TYPE</label>
-                                <div class="relative h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
-                                    <select id="fuel" class="w-full h-full bg-transparent text-[48px] leading-tight font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-4 pr-[100px]">
+                            <div class="flex flex-col gap-3">
+                                <label class="font-mono text-sm font-bold tracking-widest text-gray-300 uppercase">Fuel Type</label>
+                                <div class="relative h-14 border-b-2 border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
+                                    <select id="fuel" class="w-full h-full bg-transparent text-lg font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-2 pr-10">
                                         <option>Petrol</option>
                                         <option>Diesel</option>
                                         <option>Hybrid</option>
                                         <option>Electric</option>
                                     </select>
-                                    <span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-primary-container text-[64px] pointer-events-none z-10">expand_more</span>
+                                    <span class="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-primary-container text-2xl pointer-events-none z-10">expand_more</span>
                                 </div>
                             </div>
 
-                            <div class="flex flex-col gap-6">
-                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">TRANSMISSION</label>
-                                <div class="relative h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
-                                    <select id="transmission" class="w-full h-full bg-transparent text-[48px] leading-tight font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-4 pr-[100px]">
+                            <div class="flex flex-col gap-3">
+                                <label class="font-mono text-sm font-bold tracking-widest text-gray-300 uppercase">Transmission</label>
+                                <div class="relative h-14 border-b-2 border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
+                                    <select id="transmission" class="w-full h-full bg-transparent text-lg font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-2 pr-10">
                                         <option>Automatic (AMT)</option>
                                         <option>Automatic (DCT)</option>
                                         <option>Manual</option>
                                     </select>
-                                    <span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-primary-container text-[64px] pointer-events-none z-10">expand_more</span>
+                                    <span class="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-primary-container text-2xl pointer-events-none z-10">expand_more</span>
                                 </div>
                             </div>
 
-                            <div class="flex flex-col justify-end gap-8">
-                                <div class="flex justify-between items-center h-[120px] border-b-[5px] border-transparent">
-                                    <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">CAR AGE (YEARS)</label>
-                                    <span class="font-headline text-[72px] font-bold text-primary-container leading-none" id="ageValue">5</span>
+                            <div class="flex flex-col justify-end gap-4">
+                                <div class="flex justify-between items-end h-10 pb-1">
+                                    <label class="font-mono text-sm font-bold tracking-widest text-gray-300 uppercase">Car Age (Years)</label>
+                                    <span class="font-headline text-2xl font-bold text-primary-container leading-none" id="ageValue">5</span>
                                 </div>
-                                <input id="car_age" class="w-full h-[12px] bg-white/30 rounded-full appearance-none cursor-pointer accent-primary-container -mt-4" type="range" min="0" max="15" value="5" oninput="document.getElementById('ageValue').innerText=this.value">
+                                <input id="car_age" class="w-full h-2 bg-white/30 rounded-full appearance-none cursor-pointer accent-primary-container" type="range" min="0" max="15" value="5" oninput="document.getElementById('ageValue').innerText=this.value">
                             </div>
 
-                            <div class="flex flex-col gap-6">
-                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">OWNER COUNT</label>
-                                <div class="relative h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
-                                    <select id="owner" class="w-full h-full bg-transparent text-[48px] leading-tight font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-4 pr-[100px]">
+                            <div class="flex flex-col gap-3">
+                                <label class="font-mono text-sm font-bold tracking-widest text-gray-300 uppercase">Owner Count</label>
+                                <div class="relative h-14 border-b-2 border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container">
+                                    <select id="owner" class="w-full h-full bg-transparent text-lg font-headline text-white cursor-pointer relative z-20 focus:ring-0 border-none px-2 pr-10">
                                         <option>1</option>
                                         <option>2</option>
                                         <option>3</option>
                                         <option>4</option>
                                         <option>5</option>
                                     </select>
-                                    <span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-primary-container text-[64px] pointer-events-none z-10">expand_more</span>
+                                    <span class="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-primary-container text-2xl pointer-events-none z-10">expand_more</span>
                                 </div>
                             </div>
 
-                            <div class="flex flex-col gap-6">
-                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">KILOMETERS DRIVEN</label>
-                                <div class="flex items-center h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container px-6 bg-white/5 rounded-t-2xl">
-                                    <input id="km" type="number" value="50000" class="bg-transparent border-none focus:ring-0 text-[64px] font-headline text-white w-full h-full px-0 tracking-wider">
-                                    <span class="font-mono text-[36px] font-bold text-gray-400 ml-8">KM</span>
+                            <div class="flex flex-col gap-3">
+                                <label class="font-mono text-sm font-bold tracking-widest text-gray-300 uppercase">Kilometers Driven</label>
+                                <div class="flex items-center h-14 border-b-2 border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container px-4 bg-white/5 rounded-t-lg">
+                                    <input id="km" type="number" value="50000" class="bg-transparent border-none focus:ring-0 text-xl font-headline text-white w-full h-full px-0 tracking-wider">
+                                    <span class="font-mono text-sm font-bold text-gray-400 ml-4">KM</span>
                                 </div>
                             </div>
 
-                            <div class="flex flex-col gap-6">
-                                <label class="font-mono text-[28px] font-bold tracking-[0.2em] text-gray-300 uppercase">ESTIMATED ORIGINAL PRICE</label>
-                                <div class="flex items-center h-[120px] border-b-[5px] border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container px-6 bg-white/5 rounded-t-2xl">
-                                    <span class="font-headline text-[72px] text-gray-400 mr-8">₹</span>
-                                    <input id="original_price" type="number" value="2000000" class="bg-transparent border-none focus:ring-0 text-[64px] font-headline text-white w-full h-full px-0 tracking-wider">
+                            <div class="flex flex-col gap-3">
+                                <label class="font-mono text-sm font-bold tracking-widest text-gray-300 uppercase">Estimated Original Price</label>
+                                <div class="flex items-center h-14 border-b-2 border-white/30 transition-colors hover:border-white/60 focus-within:border-primary-container px-4 bg-white/5 rounded-t-lg">
+                                    <span class="font-headline text-xl text-gray-400 mr-3">₹</span>
+                                    <input id="original_price" type="number" value="2000000" class="bg-transparent border-none focus:ring-0 text-xl font-headline text-white w-full h-full px-0 tracking-wider">
                                 </div>
                             </div>
 
-                            <div class="col-span-2 mt-[100px] flex flex-col items-center">
-                                <button id="predictBtn" type="button" class="relative bg-primary-container text-[#004f54] font-headline font-black text-[48px] py-[48px] px-[120px] rounded-[48px] transition-all duration-300 shadow-[0_0_80px_rgba(0,240,255,0.5)] hover:shadow-[0_0_130px_rgba(0,240,255,0.9)] hover:scale-[1.03] animate-pulse-glow flex items-center justify-center gap-10 w-full max-w-[1100px]">
-                                    PREDICT RESALE PRICE
-                                    <span class="material-symbols-outlined font-black text-[72px]">bolt</span>
+                            <div class="col-span-1 md:col-span-2 mt-12 flex flex-col items-center">
+                                <button id="predictBtn" type="button" class="relative bg-primary-container text-[#004f54] font-headline font-black text-xl py-5 px-12 rounded-2xl transition-all duration-300 shadow-[0_0_30px_rgba(0,240,255,0.5)] hover:shadow-[0_0_50px_rgba(0,240,255,0.9)] hover:scale-105 animate-pulse-glow flex items-center justify-center gap-4 w-full max-w-md">
+                                    PREDICT PRICE
+                                    <span class="material-symbols-outlined font-black text-3xl">bolt</span>
                                 </button>
                                 
-                                <p class="font-mono text-[28px] tracking-[0.3em] text-gray-400 mt-12 flex items-center gap-6">
-    <span class="material-symbols-outlined text-[40px] text-primary-container">
-        verified_user
-    </span>
-    Predicted prices are estimates based on historical SUV market data and are for informational purposes only.
-</p>
+                                <p class="font-mono text-xs md:text-sm tracking-widest text-gray-400 mt-8 flex items-center gap-2 text-center">
+                                    <span class="material-symbols-outlined text-xl text-primary-container">
+                                        verified_user
+                                    </span>
+                                    Estimates are based on historical SUV market data.
+                                </p>
                             </div>
 
-                            <div class="col-span-2 mt-12 w-full">
-                                <div id="resultBox" class="hidden glass-panel py-[120px] px-[100px] rounded-[72px] text-center border-[5px] border-primary-container/50 bg-primary-container/10 transition-all duration-500 shadow-[0_0_120px_rgba(0,240,255,0.15)]">
-                                    <h2 class="font-headline text-[64px] font-bold text-white mb-12">Estimated RESALE PRICE</h2>
-                                    <p id="predictionText" class="font-headline text-[200px] font-black text-primary-container leading-none drop-shadow-2xl mb-16 tracking-tight">₹ 0</p>
-                                    <p class="font-body text-[40px] text-gray-300">AI-Powered XGBoost Neural Prediction</p>
+                            <div class="col-span-1 md:col-span-2 mt-8 w-full">
+                                <div id="resultBox" class="hidden glass-panel py-12 px-8 rounded-3xl text-center border-2 border-primary-container/50 bg-primary-container/10 transition-all duration-500 shadow-[0_0_60px_rgba(0,240,255,0.15)]">
+                                    <h2 class="font-headline text-2xl md:text-3xl font-bold text-white mb-6">Estimated Resale Price</h2>
+                                    <p id="predictionText" class="font-headline text-5xl md:text-7xl font-black text-primary-container leading-none drop-shadow-2xl mb-6 tracking-tight">₹ 0</p>
+                                    <p class="font-body text-lg text-gray-300">AI-Powered XGBoost Neural Prediction</p>
                                 </div>
                             </div>
 
